@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+		<servlet>
+		<servlet-name>controllerEmployeeIndex</servlet-name>
+		<servlet-class>controller.employee.index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEmployeeIndex</servlet-name>
+		<url-pattern>/employee</url-pattern>
+	</servlet-mapping>
+
+
+		<servlet>
+		<servlet-name>controllerEmployeeInsertar</servlet-name>
+		<servlet-class>controller.employee.insertar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEmployeeInsertar</servlet-name>
+		<url-pattern>/employee/insertar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>controllerEmployeeEliminar</servlet-name>
+		<servlet-class>controller.employee.eliminar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEmployeeEliminar</servlet-name>
+		<url-pattern>/employee/eliminar</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>controllerEmployeeModificar</servlet-name>
+		<servlet-class>controller.employee.modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEmployeeModificar</servlet-name>
+		<url-pattern>/employee/modificar</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>controllerAvanceIndex</servlet-name>
+		<servlet-class>controller.avance.index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAvanceIndex</servlet-name>
+		<url-pattern>/avance</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerAvanceInsert</servlet-name>
+		<servlet-class>controller.avance.insertar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAvanceInsert</servlet-name>
+		<url-pattern>/avance/insertar</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerAvanceModificar</servlet-name>
+		<servlet-class>controller.avance.modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAvanceModificar</servlet-name>
+		<url-pattern>/avance/modificar</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>controllerLocalIndex</servlet-name>
+		<servlet-class>controller.local.index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerLocalIndex</servlet-name>
+		<url-pattern>/localll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controllerLocalInsert</servlet-name>
+		<servlet-class>controller.local.insertar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerLocalInsert</servlet-name>
+		<url-pattern>/localll/insertar</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerLocalEliminar</servlet-name>
+		<servlet-class>controller.local.eliminar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerLocalEliminar</servlet-name>
+		<url-pattern>/localll/eliminar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controllerLocalModificar</servlet-name>
+		<servlet-class>controller.local.modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerLocalModificar</servlet-name>
+		<url-pattern>/localll/modificar</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerEquipIndex</servlet-name>
+		<servlet-class>controller.equip.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEquipIndex</servlet-name>
+		<url-pattern>/equip</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controllerEquipInsert</servlet-name>
+		<servlet-class>controller.equip.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEquipInsert</servlet-name>
+		<url-pattern>/equip/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerEquipDelete</servlet-name>
+		<servlet-class>controller.equip.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEquipDelete</servlet-name>
+		<url-pattern>/equip/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerEquipUpdate</servlet-name>
+		<servlet-class>controller.equip.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerEquipUpdate</servlet-name>
+		<url-pattern>/equip/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerRoleInsert</servlet-name>
+		<servlet-class>controller.role.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerRoleInsert</servlet-name>
+		<url-pattern>/role/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerRoleIndex</servlet-name>
+		<servlet-class>controller.role.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerRoleIndex</servlet-name>
+		<url-pattern>/role</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerRoleUpdate</servlet-name>
+		<servlet-class>controller.role.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerRoleUpdate</servlet-name>
+		<url-pattern>/role/update</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerRoleDelete</servlet-name>
+		<servlet-class>controller.role.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerRoleDelete</servlet-name>
+		<url-pattern>/role/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerResourceInsert</servlet-name>
+		<servlet-class>controller.resource.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerResourceInsert</servlet-name>
+		<url-pattern>/resource/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerResourceIndex</servlet-name>
+		<servlet-class>controller.resource.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerResourceIndex</servlet-name>
+		<url-pattern>/resource</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerResourceUpdate</servlet-name>
+		<servlet-class>controller.resource.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerResourceUpdate</servlet-name>
+		<url-pattern>/resource/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerResourceDelete</servlet-name>
+		<servlet-class>controller.resource.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerResourceDelete</servlet-name>
+		<url-pattern>/resource/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>controllerAccessInsert</servlet-name>
+		<servlet-class>controller.access.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAccessInsert</servlet-name>
+		<url-pattern>/access/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerAccessIndex</servlet-name>
+		<servlet-class>controller.access.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAccessIndex</servlet-name>
+		<url-pattern>/access</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerAccessUpdate</servlet-name>
+		<servlet-class>controller.access.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAccessUpdate</servlet-name>
+		<url-pattern>/access/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controllerAccessDelete</servlet-name>
+		<servlet-class>controller.access.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerAccessDelete</servlet-name>
+		<url-pattern>/access/delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controllerUserIndex</servlet-name>
+		<servlet-class>controller.userss.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerUserIndex</servlet-name>
+		<url-pattern>/user</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerUserInsert</servlet-name>
+		<servlet-class>controller.userss.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerUserInsert</servlet-name>
+		<url-pattern>/user/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerUserDelete</servlet-name>
+		<servlet-class>controller.userss.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerUserDelete</servlet-name>
+		<url-pattern>/user/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerUserUpdate</servlet-name>
+		<servlet-class>controller.userss.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerUserUpdate</servlet-name>
+		<url-pattern>/user/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controllerGmail</servlet-name>
+		<servlet-class>gmail.GmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controllerGmail</servlet-name>
+		<url-pattern>/gmail</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
